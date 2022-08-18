@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* custom names to css objects */
+:root {
+--pale-blue: hsl(225,100%,94%);
+--bright-blue: hsl(245,75%,52%);
+--very-pale-blue: hsl(225,100%,98%);
+--desaturated-blue: hsl(224,23%,55%);
+--dark-blue: hsl(223,47%,23%);
+}
+body{ background-color: var(--pale-blue);
+    background-image:url(pattern-background-desktop.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family:"Red Hat Display ,sans serif ";
+    font-size:16px;
+}
+.card{
+    width:450px;
+   color:var(--desaturated-blue);
+   background-color:white;
+   border-radius:20px;
+   overflow: hidden;
+   margin:50px auto;
+   height:750px;
+
+
+}
+.title{
+    color:var(--dark-blue);
+    font-weight:900;
+    font-size:32px;
+}
+.plan img{
+    height:100px;
+    width:90px;
+}
+.hero{
+    width:100%;
+}
+.container{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-size:18px;
+}
+.container>*{
+   
+    margin:13px 0;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.text1{
+    line-height: 25px;
+}
+.plan{
+    font-size: 16px;
+    background-color: var(--very-pale-blue);
+    padding:25px;
+    border-radius:12px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.plan{
+    color:var(--dark-blue);
+}
+.plan a{
+    color:var(--bright-blue);
+    font-size:13px;
+    font-weight:700;
+
+}
+.plan a:hover{
+    opacity:0.8;
+    text-decoration: none;
+}
+button{
+    width:100%;
+    border:none;
+    font-weight :700;
+    cursor:pointer;
+    font-size:12px;
+
+}
+.proceed{
+    background-color: var(--bright-blue);
+    padding:1rem 0;
+    color:white;
+    box-shadow: 0 20px 30px -8px rgb(197 189 245);
+    border-radius: 20px;
+    
+
+}
+.cancel{
+    background-color: white;
+    padding:1rem 0;
+    color:var(--desaturated-blue);
+    /* box-shadow: 0 20px 30px -8px rgb(197 189 245); */
+    margin-top:20px;
+    border-radius: 12px;
+
+}
+.proceed:hover{
+    opacity:0.8;
+}
+.cancel:hover{
+    color:black;
+}
