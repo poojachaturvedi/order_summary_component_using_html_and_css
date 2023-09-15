@@ -105,17 +105,3 @@ Connect with me on quora:[https://www.quora.com/profile/Pooja-Chaturvedi-116](ht
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[React.js]: https://img.shields.io/badge/Css-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-
